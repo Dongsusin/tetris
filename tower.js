@@ -17,7 +17,7 @@ var Stage = /** @class */ (function () {
       alpha: false,
     });
     this.renderer.setSize(window.innerWidth, window.innerHeight);
-    this.renderer.setClearColor("#D0CBC7", 1);
+    this.renderer.setClearColor("#ABDCFF", 1);
     this.container.appendChild(this.renderer.domElement);
     this.scene = new THREE.Scene();
     var aspect = window.innerWidth / window.innerHeight;
